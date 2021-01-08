@@ -1,4 +1,5 @@
 # Intraparietal stimulation disrupts negative distractor effects in human multi-alternative decision-making
+
 Kohl, C.<sup>1</sup>, Wong, M. X. M. <sup>1</sup>, Rushworth, M. F. S. <sup>2</sup> & Chau, B. K. H. <sup>1, 3</sup>  
 <sup><sup>1</sup> Department of Rehabilitation Sciences, The Hong Kong Polytechnic University, Hong Kong  
 <sup>2</sup> Department of Experimental Psychology, University of Oxford, Oxford OX1 3UD, UK  
@@ -29,25 +30,25 @@ The ‘Data’ directory contains one .mat file per participant (01-31). Each fi
 *	data.<span>MIP</span> contains data collected in the MIP session (270 x 18, rows = trials)
 *	data.<span>MT</span> contains data collected in the MT session (270 x 18, rows = trials)
 *	data.<span>Key</span> contains a cell with 18 strings, labelling each column in <span>data</span>.MT/MIP       
-<sub>
-    *   1: **Trial_Nr**	Trial number *(1-270)*   
-    *	2: **HV_value**	Value of the high-value option *(value = magnitude*probability)*   
-    *	3: **LV_value**	Value of the low-value option *(value = magnitude*probability)*   
-    *	4: **D_value**	Value of the distractor *(value = magnitude*probability)*   
-    *	5: **HV_magnitude**	Magnitude of the high-value option   
-    *	6: **LV_magnitude**	Magnitude of the low-value option   
-    *	7: **D_magnitude**	Magnitude of the distractor   
-    *	8: **HV_magnitude**	Probability of the high-value option   
-    *	9: **LV_magnitude**	Probability of the low-value option   
-    *	10: **D_magnitude**	Probability of the distractor   
-    *	11: **HV_position**	Position of the high-value option *(1= top left, 2=top right, 3=bottom left, 4=bottom right)*   
-    *	11: **LV_position**	Position of the low-value option *(1= top left, 2=top right, 3=bottom left, 4=bottom right)*   
-    *	13: **HV_position**	Position of the distractor *(1= top left, 2=top right, 3=bottom left, 4=bottom right)*   
-    *	14: **TMS**	TMS applied *(1=TMS,0=NonTMS)*   
-    *	15: **Decision** Choice made *(1=HV, 2=LV, nan= D/empty quadrant)*   
-    *	16: **RT**	Reaction time in ms   
-    *	17: **Reward**	Reward achieved   
-    *	18: **Accuracy**  Choice accuracy *(1=HV chosen, 0=LV chosen, nan=D/empty quadrant chosen)* </sub>   
+
+    <sub>1: **Trial_Nr**	Trial number *(1-270)*   
+    2: **HV_value**	Value of the high-value option *(value = magnitude*probability)*   
+    3: **LV_value**	Value of the low-value option *(value = magnitude*probability)*   
+    4: **D_value**	Value of the distractor *(value = magnitude*probability)*   
+    5: **HV_magnitude**	Magnitude of the high-value option   
+    6: **LV_magnitude**	Magnitude of the low-value option   
+    7: **D_magnitude**	Magnitude of the distractor   
+    8: **HV_magnitude**	Probability of the high-value option   
+    9: **LV_magnitude**	Probability of the low-value option   
+    10: **D_magnitude**	Probability of the distractor   
+    11: **HV_position**	Position of the high-value option *(1= top left, 2=top right, 3=bottom left, 4=bottom right)*   
+    12: **LV_position**	Position of the low-value option *(1= top left, 2=top right, 3=bottom left, 4=bottom right)*   
+    13: **D_position**	Position of the distractor *(1= top left, 2=top right, 3=bottom left, 4=bottom right)*   
+    14: **TMS**	TMS applied *(1=TMS,0=NonTMS)*   
+    15: **Decision** Choice made *(1=HV, 2=LV, nan= D/empty quadrant)*   
+    16: **RT**	Reaction time in ms   
+    17: **Reward**	Reward achieved   
+    18: **Accuracy**  Choice accuracy *(1=HV chosen, 0=LV chosen, nan=D/empty quadrant chosen)* </sub>   
 
 ***
 
