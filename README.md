@@ -27,7 +27,7 @@ This repository contains three .m files which run all main behavioural analyses,
 *	**GLM3.m**
     *	This script fits GLM3 separately to each condition ( MIP/MT x TMS/NonTMS x Contralateral D/Ipsilateral D)
     *	GLM3:	β0 + β1 z(HV-LV) + β2 z(HV+LV) + β3 z(D-HV) + ε
-    *   The resulting beta weights of each regressor are entered in a Session x Stimulation x Distractor Location ANOVA. 
+    *   The resulting beta weights of each regressor are entered in a Session x Stimulation x Distractor Location ANOVA 
     *	This script plots Figure 3a-c
     
 
