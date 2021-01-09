@@ -45,9 +45,9 @@ The ‘Data’ directory contains one .mat file per participant (01-31). Each fi
     5: **HV_magnitude**	Magnitude of the high-value option *(1-6)*      
     6: **LV_magnitude**	Magnitude of the low-value option *(1-6)*    
     7: **D_magnitude**	Magnitude of the distractor *(1-6)*    
-    8: **HV_magnitude**	Probability of reward associated with the high-value option *(12.5-87.5)*   
-    9: **LV_magnitude**	Probability of reward associated with the low-value option *(12.5-87.5)*   
-    10: **D_magnitude**	Probability of reward associated with the distractor *(12.5-87.5)*   
+    8: **HV_probability**	Probability of reward associated with the high-value option *(12.5-87.5)*   
+    9: **LV_probability**	Probability of reward associated with the low-value option *(12.5-87.5)*   
+    10: **D_probability**	Probability of reward associated with the distractor *(12.5-87.5)*   
     11: **HV_position**	Position of the high-value option *(1 = top left, 2 = top right, 3 = bottom left, 4 = bottom right)*   
     12: **LV_position**	Position of the low-value option *(1 = top left, 2 = top right, 3 = bottom left, 4 = bottom right)*   
     13: **D_position**	Position of the distractor *(1 = top left, 2 = top right, 3 = bottom left, 4 = bottom right)*   
@@ -55,7 +55,7 @@ The ‘Data’ directory contains one .mat file per participant (01-31). Each fi
     15: **Decision** Choice made *(1 = HV chosen, 2 = LV chosen, nan = D/empty quadrant chosen)*   
     16: **RT**	Reaction time in ms *(max. 1500)*   
     17: **Reward**	Reward achieved   
-    18: **Accuracy**  Choice accuracy *(1 = HV chosen, 0 = LV chosen, na n= D/empty quadrant chosen)* </sub>   
+    18: **Accuracy**  Choice accuracy *(1 = HV chosen, 0 = LV chosen, nan= D/empty quadrant chosen)* </sub>   
 
 ***
 
