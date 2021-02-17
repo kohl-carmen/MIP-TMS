@@ -2,7 +2,7 @@
 
 Kohl, C.<sup>1,2</sup>, Wong, M. X. M. <sup>1</sup>, Rushworth, M. F. S. <sup>3</sup> & Chau, B. K. H. <sup>1, 4</sup>  
    
-<sup><sup>1</sup> Department of Rehabilitation Sciences, The Hong Kong Polytechnic University, Hong Kong 
+<sup><sup>1</sup> Department of Rehabilitation Sciences, The Hong Kong Polytechnic University, Hong Kong  
 <sup>2</sup> Department of Neuroscience, Carney Institute for Brain Sciences, Brown University, Providence, United States   
 <sup>3</sup> Department of Experimental Psychology, University of Oxford, Oxford OX1 3UD, UK  
 <sup>4</sup> University Research Facility in Behavioral and Systems Neuroscience, The Hong Kong Polytechnic University, Hong Kong</sup>  
