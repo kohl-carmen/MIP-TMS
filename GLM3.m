@@ -153,7 +153,7 @@ for rfig = 2: length(regressor_str) + 1
     legend(leg,{'MT0', 'MT1', 'MIP0', 'MIP1'})
     xlim([0 5])
     set(gca,'XTick',1:4)
-    set(gca,'xticklabel', {'Contra' 'Ipsi' 'Contra' 'Ipsi'})
+    set(gca,'xticklabel', {'Ipsi' 'Contra' 'Ipsi' 'Contra'})
     title(regressor_str{rfig-1})        
     if rfig <4, ylim([-0.6 1.2]); else, ylim([-0.3 0.6]); end
 end
