@@ -34,7 +34,7 @@ beta = nan(nPartic,length(regressor_str) + 1,length(Conditions));
 for iPartic = 1:nPartic
     %% Prepare data
     partic_str = sprintf('%02d', iPartic);
-    load(strcat('Data\',partic_str))  
+    load(strcat('Data',filesep, partic_str))  
     % select variables of interest (see data.Key)
     session = [ones(size(data.MIP, 1),1); zeros(size(data.MT, 1),1)];
     tms = [data.MIP(:,14); data.MT(:,14)]; % 1=TMS, 0=NonTMS 

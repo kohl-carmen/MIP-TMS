@@ -26,7 +26,7 @@ modelStep2 = '[d(idx) - hv(idx)]';
 for iPartic = 1:nPartic
     %% Prepare data
     partic_str = sprintf('%02d', iPartic);
-    load(strcat('Data\',partic_str))   
+    load(strcat('Data',filesep,partic_str))   
     % select variables of interest (see data.Key)
     tms = [data.MIP(:, 14); data.MT(:, 14)];  % 1=TMS, 0=NonTMS
     d = [data.MIP(:, 4); data.MT(:, 4)]; % distractor value
