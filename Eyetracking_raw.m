@@ -29,12 +29,12 @@ clear
 % Which_GLM = 2;
 % Which criterion = 3;
 
-Which_GLM = 2;
+Which_GLM = 3;
 % 1: HV+LV, HV-LV, D-HV  => these values to predict the number of gaze shifts in different conds (TMSxSess)
 % 2: HV, LV, D  => these values to predict the number of gaze shifts in different conds (TMSxSess)
 % 3: hv_lv, lv_hv, lv_dv, dv_lv, hv_dv, dv_hv  => these gaze shifts to predict accuracy across all non-tms trials
 
-Which_criterion = 3;
+Which_criterion = 1;
 % If GLM is 1 or 2 (predicting gaze shifts), which gaze shifts
 % 1: bidirectional D to HV and HV to D
 % 2: D to HV
@@ -78,7 +78,7 @@ elseif ANOVA == 10
 end
 
 betas = [];
-
+exclude = []
 for partic = 1:length(Partic)
     nr_fix = [];
     dur_fix = [];
@@ -269,10 +269,14 @@ for partic = 1:length(Partic)
         regressors = [normalise(regressors)];
 
         if Testing == 1
+            warning('')
             criterion = [acc(idx)];
 
             [betas(partic, :, run), dev, stats] = glmfit(regressors, criterion, 'binomial');
             [warnMsg, warnId] = lastwarn;
+            if ~isempty(warnMsg)
+                exclude=[exclude,partic];
+            end
 
         else
             criterion = eval(criterion_name);
@@ -284,6 +288,9 @@ for partic = 1:length(Partic)
     end
 
 end
+exclude=unique(exclude);
+fprintf('%i participants excluded \n',length(exclude))
+betas(exclude,:,:)=[];
 
 %% plot betas
 clf
